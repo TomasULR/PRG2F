@@ -25,5 +25,6 @@ public class AdvancedLoops {
         }
         System.out.println("Hazel jsi " + counter);
         System.out.println("gfds");
+
     }
 }
