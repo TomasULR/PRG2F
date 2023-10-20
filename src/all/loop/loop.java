@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class loop {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int input = sc.nextInt();
+
        // while (input != 0){
        //     input = sc.nextInt();
        //     if(input % 2 == 0){
@@ -24,13 +24,19 @@ public class loop {
        //        break;
        //    }
        //}
-
+        int input = sc.nextInt();
         System.out.println("Zadej hranici");
+        boolean prime;
         for (int i = 2; i < input; i++) {
+            prime = true;
             for (int j = 2; j <i ; j++) {
-                if (i % j != 0 && i != j){
-                    System.out.println(i);
+                if (i % j == 0 && i != j){
+                    prime = false;
+                    break;
                 }
+            }
+            if(prime){
+                System.out.println(i);
             }
         }
     }
