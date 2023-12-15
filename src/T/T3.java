@@ -13,7 +13,7 @@ public class T3 {
         System.out.println(pole[random] +" " + pole2[random2] );
         
         
-        String retezec = "Kolik je ve vete slov.";
+        String retezec = "Kolik je ve vete vět.";
         int slovoCounter = 0;
         for (int i = 0; i < retezec.length(); i++) {
             if( retezec.charAt(i) == '.'|| retezec.charAt(i) == '!'|| retezec.charAt(i) == '?'){
