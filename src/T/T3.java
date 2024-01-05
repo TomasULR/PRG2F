@@ -13,14 +13,14 @@ public class T3 {
         System.out.println(pole[random] +" " + pole2[random2] );
         
         
-        String retezec = "Kolik je ve vete vět.";
+        String retezec = "Kolik je ve vete vět. AJDLKJA kjd.";
         int slovoCounter = 0;
         for (int i = 0; i < retezec.length(); i++) {
             if( retezec.charAt(i) == '.'|| retezec.charAt(i) == '!'|| retezec.charAt(i) == '?'){
                 slovoCounter++;
             }
         }
-        System.out.println("Ve větě je: " + slovoCounter + " slov");
+        System.out.println("Ve větě je: " + slovoCounter + " vět");
 
 
         String tel = "+420350986458";
